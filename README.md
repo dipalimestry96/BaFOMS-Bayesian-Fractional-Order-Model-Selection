@@ -11,7 +11,7 @@ $${}_{0}^{}D_t^\alpha \{N(t)\} = r N(t) \left( 1 - \frac{N(t)}{K} \right), \quad
 with initial population size, $$N(t_0) = N_{t_0}$$ and $$N(t)$$ represents the population size at time $$t$$; $$r$$ is the intrinsic rate of growth; $$K$$ is the carrying capacity of the system; and  $${}_{0}^{}D_t^\alpha$$  can be interpreted using any one of the FD's described as follows;
 
 <div align="center">
-  <img src="equation_plot.png" alt="Flowchart for code file access" />
+  <img src="equation_plot.png" alt="List of considered FD definitions for the study." />
 </div>
 The complete workflow of our work to determine the suitable FD definition for the analysis based on the data is as follows;
 
@@ -20,6 +20,11 @@ The complete workflow of our work to determine the suitable FD definition for th
 3. By adding the noise to this solution, corresponding statistical models have been obtained.
 4. Under Bayesian framework, the posterior distribution of model parameters is obtained using JAGS and in final step the Bayesian model selection is performed using the RJMCMC method.
 5. RJMCMC provides posterior model probabilities as a result and FD corresponding to the highest posterior model probability is the optimal.
+
+We have first performed the simulation study and then explored the nature of memory using six commonly employed fractional derivatives (FDs) across three ecological datasets—population time series of two mammalian species, *Ursus americanus* and *Castor canadensis*, and one avian species, *Phalacrocorax carbo*—along with an epidemiological dataset focusing on COVID-19 cases in Germany following logistic growth curve. All the analysis are carried out in the **R** software. All used **R** codes are given in this repository under the folder named as 
+
+
+
 
 <div align="center">
   <img src="Code%20file%20access%20guide%20flowchart.jpg" alt="Flowchart for code file access" />
