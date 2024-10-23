@@ -3,6 +3,10 @@ Fractional derivatives (FDs) are a generalization of classical integer-order der
 
 We have considered the fractional logistic growth model under six FD definitions namely, Caputo, Caputo-Fabrizio (CF), Atangana–Baleanu-Caputo (ABC), Riemann-Liouville (RL), RL with exponential decay (CF-RL), and Grünwald-Letnikov (GL). The mathematical expressions for these definitions are as follows;
 
+<div align="center">
+  <img src="equation_plot.png" alt="Flowchart for code file access" />
+</div>
+
 
 <div align="center">
   <img src="Code%20file%20access%20guide%20flowchart.jpg" alt="Flowchart for code file access" />
