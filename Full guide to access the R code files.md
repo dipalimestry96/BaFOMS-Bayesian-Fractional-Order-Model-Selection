@@ -1,9 +1,6 @@
 # Background
 Fractional derivatives (FDs) are a generalization of classical integer-order derivatives and there are many ways to define a FD. This results in the existence of various FD definitions in the literature. FDs offer a powerful tool to model complex systems in various fields such as environmental sciences, physics, and biology. However, the choice of a suitable FD definition is not always straightforward, as different FD definitions exhibit unique properties that can significantly impact the results of the analysis. Despite their theoretical significance, there is a gap in the literature regarding the data-driven selection of the most appropriate FD definition. This study addresses this gap by exploring the efficacy of six FD definitions based on simulated and real data, aiming to identify the optimal definition that aligns with the underlying process.
 
-![This is the flowchart for accessing the code files.](Code%20file%20access%20guide%20flowchart.jpg "Code file access guide flowchart")
-*This is the flowchart for accessing the code files.*
-
 <div align="center">
   <img src="Code%20file%20access%20guide%20flowchart.jpg" alt="Flowchart for code file access" />
   <p><em>Figure 1: This is the flowchart for accessing the code files.</em></p>
