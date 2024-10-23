@@ -27,6 +27,6 @@ We have first performed the simulation study and then explored the nature of mem
 
 <div align="center">
   <img src="Code%20file%20access%20guide%20flowchart.jpg" alt="Flowchart for code file access" />
-  <p><em>Figure 1: This is the flowchart for accessing the code files.</em></p>
+  <p><em>Figure 1: Flowchart for accessing the R code files.</em></p>
 </div>
 
